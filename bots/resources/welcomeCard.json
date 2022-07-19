@@ -1,0 +1,29 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Image",
+      "url": "https://www.claflin.edu/images/default-source/social-media/claflin-color-logo87855f3cb5386062bd9cff000049ad50.jpg?sfvrsn=cabd3f0e_0&MaxWidth=500&MaxHeight=500&ScaleUp=false&Quality=High&Method=ResizeFitToAreaArguments&Signature=CFACCAA369CC113950930C983C8FD6B0E623B700",
+      "size": "stretch"
+    },
+    {
+      "type": "TextBlock",
+      "spacing": "medium",
+      "size": "default",
+      "weight": "bolder",
+      "text": "Welcome to Claflin University Chat Bot!",
+      "wrap": true,
+      "maxLines": 0
+    },
+    {
+      "type": "TextBlock",
+      "size": "default",
+      "isSubtle": true,
+      "text": "You can ask me questions about the university or to connect you to any faculty member.",
+      "wrap": true,
+      "maxLines": 0
+    }
+  ]
+}
